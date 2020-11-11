@@ -1,6 +1,6 @@
 # iOS Course
 This is the repository where all the information about the iOS Course is gonna be added. 
-Here you can found all the information about the course, including:
+Here you can find all the information about the course, including:
 - Slides
 - Code seen in class
 - Examples
