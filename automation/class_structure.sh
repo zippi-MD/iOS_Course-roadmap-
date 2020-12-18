@@ -3,6 +3,7 @@ if [ "$#" -ne 1 ]; then
     exit
 fi
 
+classes_directory_name="classes"
 class_directory_name="$1 class"
 code_directory_name="code"
 slides_directory_name="slides"
@@ -11,6 +12,7 @@ challenges_directory_name="challenges"
 code_file_name="$1_class_examples.swift"
 
 cd ..
+cd "$classes_directory_name"
 
 mkdir "$class_directory_name"
 cd "$class_directory_name"
