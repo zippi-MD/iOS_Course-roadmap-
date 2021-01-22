@@ -9,3 +9,6 @@ On this class we saw the following topics:
 
 ## Before next lecture
 - Complete the challenges from this lecture
+- Investigate about functional programming
+- Investigate the methods: map, filter and reduce
+- Make an example using: map, filter and reduce
