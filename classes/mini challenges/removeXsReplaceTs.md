@@ -1,5 +1,5 @@
 # RemoveXsReplaceTs
-Create a function called removeXsReplaceTs that receives one array of strings and returns another array of strings.
+Create a function called removeXsReplaceTs that receives one **array of strings** and returns another **array of strings**.
 
 The function will receive an array that can contain different combinations of the following elements:
 - "O"
@@ -12,13 +12,13 @@ Notes:
 - Keep a count of all the changing and removing operations
 
 ## Extra:
-- Instead of returning an array of strings from the function, return a tuple where the first element is the updated array of strings and the second element is the number of operations performed
+- Instead of returning an **array of strings** from the function, return a **tuple** where the first element is the updated **array of strings** and the second element is an **Int** representing the number of operations to remove or replace an element.
 - Use the return value from the function to print the following message on the console:
 ```
 "Updated value: <array of strings>
 Operations made: <number of operations made> "
 ```
-* Notice the message is printed on two separate lines *
+*Notice the message is printed on two separate lines*
 
 ## Examples:
 ```
