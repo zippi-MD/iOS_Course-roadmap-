@@ -1,5 +1,5 @@
 # Grades
-Create a class called **MyGrades**, said class will be in charge of keeping track of a student's grades in a specified subject (the subject name must be specified when creating the object).
+Create a class called **MyClass**, said class will be in charge of keeping track of a student's grades in a specified subject (the subject name must be specified when creating the object).
 
 MyClass must store the name of the subject, store the grades in an orderly manner and have methods to be able to perform the following operations:
 - Add a new grade
@@ -14,7 +14,7 @@ The school gives students a grade per month, ranging from 0 to 10
 ### Create class
 Input
 ```swift
-let history = MyClass (named: "History")
+let history = MyClass(named: "History")
 ```
 Console Output
 ```swift
@@ -23,9 +23,9 @@ Console Output
 ### Add grade
 Input
 ```swift
-let history = MyClass (named: "History")
-history.addGrade (10)
-history.addGrade (5)
+let history = MyClass(named: "History")
+history.addGrade(10)
+history.addGrade(5)
 ```
 Console Output
 ```swift
@@ -36,9 +36,9 @@ Console Output
 ### Update grade
 Input
 ```swift
-let history = MyClass (named: "History")
-history.addGrade (10)
-history.addGrade (month: 1, grade: 7)
+let history = MyClass(named: "History")
+history.addGrade(10)
+history.addGrade(month: 1, grade: 7)
 ```
 Console Output
 ```swift
@@ -49,30 +49,30 @@ Console Output
 ### Get grade
 Input
 ```swift
-let history = MyClass (named: "History")
-history.addGrade (10)
+let history = MyClass(named: "History")
+history.addGrade(10)
 
-let gradeMonthOne = history.getGrade (month: 1)
-print (gradeMonthOne)
+let gradeMonthOne = history.getGrade(month: 1)
+print(gradeMonthOne)
 
-let gradeMonthTwo = history.getGrade (month: 2)
-print (gradeMonthTwo)
+let gradeMonthTwo = history.getGrade(month: 2)
+print(gradeMonthTwo)
 ```
 Console Output
 ```swift
 "Class History created"
 "Grade 10 added for month 1"
-"Optional (10)"
+"Optional(10)"
 "nil"
 ```
 ### Print grades
 Input
 ```swift
-let history = MyClass (named: "History")
-history.addGrade (10)
-history.addGrade (8)
+let history = MyClass(named: "History")
+history.addGrade(10)
+history.addGrade(8)
 
-history.printGrades ()
+history.printGrades()
 ```
 Console Output
 ```swift
@@ -81,6 +81,5 @@ Console Output
 "Grade 8 added for month 2"
 "History:
 month 1 -> 10
-month 2 -> 8
-"
+month 2 -> 8"
 ```
