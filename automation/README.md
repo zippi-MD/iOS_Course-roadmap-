@@ -9,5 +9,5 @@ The script takes one parameter, the number of the lecture.
 To use the script run the following code:
 
 ```bash
-bash class_structure.sh <number of the lecture>
+bash class_structure.sh <number of the lecture in lexic form (one)> <number of the lecture in numeric form (1)>
 ```

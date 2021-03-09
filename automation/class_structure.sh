@@ -1,10 +1,11 @@
-if [ "$#" -ne 1 ]; then
-    echo "The script only accepts one parameter (the number of the lesson)"
+if [ "$#" -ne 2 ]; then
+    echo "The script only accepts two parameters (the number of the lesson in lexic and numeric form)"
     exit
 fi
 
 classes_directory_name="classes"
-class_directory_name="$1 class"
+class_directory_name="$2. $1 class"
+class_title="$1 class"
 code_directory_name="code"
 slides_directory_name="slides"
 challenges_directory_name="challenges"
@@ -18,7 +19,7 @@ mkdir "$class_directory_name"
 cd "$class_directory_name"
 
 touch "README.md"
-echo "# $class_directory_name
+echo "# $class_title
 ## Before lecture
 Before this class is recommended that you have
 
