@@ -19,5 +19,5 @@ On this class we saw the following topics:
 - Update code so that each pokemon has a unique attack
 
 ## Optional Homework
-    - Update button state after attack to remove attack
-    - View background color specific for each pokemon
+- Update button state after attack to remove attack
+- View background color specific for each pokemon
